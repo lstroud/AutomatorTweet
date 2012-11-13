@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33FD537164AF5F700D99CDD /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33FD536164AF5F700D99CDD /* Automator.framework */; };
+		C33FD539164AF5F700D99CDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33FD538164AF5F700D99CDD /* Cocoa.framework */; };
+		C33FD543164AF5F700D99CDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C33FD541164AF5F700D99CDD /* InfoPlist.strings */; };
+		C33FD546164AF5F700D99CDD /* TweetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = C33FD545164AF5F700D99CDD /* TweetAction.m */; };
+		C33FD549164AF5F700D99CDD /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33FD547164AF5F700D99CDD /* main.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C33FD533164AF5F700D99CDD /* TweetAction.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TweetAction.action; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33FD536164AF5F700D99CDD /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		C33FD538164AF5F700D99CDD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C33FD53B164AF5F700D99CDD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C33FD53C164AF5F700D99CDD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C33FD53D164AF5F700D99CDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C33FD540164AF5F700D99CDD /* TweetAction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetAction-Info.plist"; sourceTree = "<group>"; };
+		C33FD542164AF5F700D99CDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C33FD544164AF5F700D99CDD /* TweetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetAction.h; sourceTree = "<group>"; };
+		C33FD545164AF5F700D99CDD /* TweetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetAction.m; sourceTree = "<group>"; };
+		C33FD548164AF5F700D99CDD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/main.xib; sourceTree = "<group>"; };
+		C33FD54A164AF5F700D99CDD /* TweetAction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetAction-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33FD52F164AF5F700D99CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33FD537164AF5F700D99CDD /* Automator.framework in Frameworks */,
+				C33FD539164AF5F700D99CDD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33FD527164AF5F700D99CDD = {
+			isa = PBXGroup;
+			children = (
+				C33FD53E164AF5F700D99CDD /* TweetAction */,
+				C33FD535164AF5F700D99CDD /* Frameworks */,
+				C33FD534164AF5F700D99CDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33FD534164AF5F700D99CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33FD533164AF5F700D99CDD /* TweetAction.action */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33FD535164AF5F700D99CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33FD536164AF5F700D99CDD /* Automator.framework */,
+				C33FD538164AF5F700D99CDD /* Cocoa.framework */,
+				C33FD53A164AF5F700D99CDD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C33FD53A164AF5F700D99CDD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33FD53B164AF5F700D99CDD /* AppKit.framework */,
+				C33FD53C164AF5F700D99CDD /* CoreData.framework */,
+				C33FD53D164AF5F700D99CDD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C33FD53E164AF5F700D99CDD /* TweetAction */ = {
+			isa = PBXGroup;
+			children = (
+				C33FD544164AF5F700D99CDD /* TweetAction.h */,
+				C33FD545164AF5F700D99CDD /* TweetAction.m */,
+				C33FD547164AF5F700D99CDD /* main.xib */,
+				C33FD53F164AF5F700D99CDD /* Supporting Files */,
+			);
+			path = TweetAction;
+			sourceTree = "<group>";
+		};
+		C33FD53F164AF5F700D99CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C33FD540164AF5F700D99CDD /* TweetAction-Info.plist */,
+				C33FD541164AF5F700D99CDD /* InfoPlist.strings */,
+				C33FD54A164AF5F700D99CDD /* TweetAction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33FD532164AF5F700D99CDD /* TweetAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33FD54D164AF5F700D99CDD /* Build configuration list for PBXNativeTarget "TweetAction" */;
+			buildPhases = (
+				C33FD52E164AF5F700D99CDD /* Sources */,
+				C33FD52F164AF5F700D99CDD /* Frameworks */,
+				C33FD530164AF5F700D99CDD /* Resources */,
+				C33FD531164AF5F700D99CDD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetAction;
+			productName = TweetAction;
+			productReference = C33FD533164AF5F700D99CDD /* TweetAction.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33FD529164AF5F700D99CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Crafted Code";
+			};
+			buildConfigurationList = C33FD52C164AF5F700D99CDD /* Build configuration list for PBXProject "TweetAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C33FD527164AF5F700D99CDD;
+			productRefGroup = C33FD534164AF5F700D99CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33FD532164AF5F700D99CDD /* TweetAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33FD530164AF5F700D99CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33FD543164AF5F700D99CDD /* InfoPlist.strings in Resources */,
+				C33FD549164AF5F700D99CDD /* main.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C33FD531164AF5F700D99CDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33FD52E164AF5F700D99CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33FD546164AF5F700D99CDD /* TweetAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C33FD541164AF5F700D99CDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33FD542164AF5F700D99CDD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C33FD547164AF5F700D99CDD /* main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33FD548164AF5F700D99CDD /* en */,
+			);
+			name = main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33FD54B164AF5F700D99CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C33FD54C164AF5F700D99CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C33FD54E164AF5F700D99CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetAction/TweetAction-Prefix.pch";
+				INFOPLIST_FILE = "TweetAction/TweetAction-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		C33FD54F164AF5F700D99CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetAction/TweetAction-Prefix.pch";
+				INFOPLIST_FILE = "TweetAction/TweetAction-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33FD52C164AF5F700D99CDD /* Build configuration list for PBXProject "TweetAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33FD54B164AF5F700D99CDD /* Debug */,
+				C33FD54C164AF5F700D99CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33FD54D164AF5F700D99CDD /* Build configuration list for PBXNativeTarget "TweetAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33FD54E164AF5F700D99CDD /* Debug */,
+				C33FD54F164AF5F700D99CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33FD529164AF5F700D99CDD /* Project object */;
+}
